@@ -1,0 +1,81 @@
+body {
+    background: #2d2d2d;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #202020;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1 {
+    color: #f0f0f0;
+    margin: 0;
+}
+#mainBox {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 500px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: #202020;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+form {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    flex-wrap: wrap;
+    
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    
+}
+select {
+    width: 80px;
+    border: none;
+    padding: 13px 18px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: larger;
+    cursor: pointer;
+}
+input {
+    width: 300px;
+    height: 34px;
+    background-color: #f1f1f1;
+    border: none;
+    padding: 7.5px 20px;
+    border-radius: 4px;
+    font-size: larger;
+}
+label {
+    font-size: large;
+    font-weight: bold;
+    color: azure;
+    margin-bottom: 7px;
+}
+#convertButton {
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    font-size: larger;
+    font-weight: 500;
+    border-radius: 4px;
+    cursor: pointer;
+}

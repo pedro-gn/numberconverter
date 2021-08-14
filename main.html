@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" async></script>
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    
+    <title>Number Converter</title>
+</head>
+<body>
+    <header>
+        <H1>Number Converter</H1>
+    </header>
+    <div id="mainBox">
+        <form>
+            <div class="box">
+                <label for="number">Number</label>     
+                <input type="text" id="number" oninput="">
+            </div>
+            <div class="box">
+                <label for="numberBase">Base</label>
+                <select id="numberBase" oninput="">
+
+                </select>
+            </div>
+            <div class="box">
+                <label for="">Converted Number</label>
+                <input disabled id="convertedNumber" type="text">
+            </div>
+            <div class="box">
+                <label for="toBase" >To Base</label>
+                <select  id="toBase" oninput"">
+                    
+                </select>
+            </div>
+
+        </form>
+        <button id="convertButton" onclick="convert()">Convert</button>
+    </div>
+
+</body>
+
+</html>
